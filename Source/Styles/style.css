@@ -1,0 +1,27 @@
+body{
+    margin: 30px;
+    background: radial-gradient(#d5e7f2, #dae8ed);
+    font-family: "Poppins", "Montserrat";
+    overflow-x: hidden;
+}
+.Face{
+    width: 8.5%;
+    display: inline-block;
+}
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.NamingContainer{
+    display: inline-block;
+    margin: 0;
+    font-family: "Poppins", "Montserrat";
+    
+}
+.content{
+    margin-left: 160px;
+}
+.dateend{
+    font-weight: bold;
+}
