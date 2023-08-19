@@ -11,7 +11,6 @@ body{
     margin-top: 10px;
     margin-bottom: 0;
     height: 230px;
-    /* vertical-align: middle; */
     position: relative;
     
 }
@@ -48,8 +47,6 @@ body{
     margin: auto;
     position: absolute;
     top: 47%; left: 0; bottom: 0; right: 0;
- 
-
 }
 .name{
     font-size: 1.4em;
