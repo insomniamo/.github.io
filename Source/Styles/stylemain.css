@@ -1,0 +1,239 @@
+body {
+    background: radial-gradient(#d5e7f2, #dae8ed);
+    font-family: "Poppins", "Montserrat";
+    overflow-x: hidden;
+  }
+  
+  img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #ceiling {
+    padding-top: 30px;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  #ceiling div {
+    display: inline-block;
+  }
+  
+  #ceiling span {
+    margin: 0;
+    line-height: 35px;
+  }
+  
+  #name_bold::before {
+    display: inline-block;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: #f27e49;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  
+  #name_bold {
+    font-size: 35px;
+    font-weight: 900;
+  }
+  
+  #job::before {
+    content: "/";
+    margin: 0 2px 0 5px;
+  }
+  
+  #job {
+    vertical-align: top;
+  }
+  
+  #middle {
+    min-height: 650px;
+    color: white;
+    display: flex;
+  }
+  
+  #background_side {
+    width: 1920px;
+    padding-bottom: 80px;
+    left: 30%;
+    position: relative;
+    background: #3f5259;
+  }
+  
+  #info_container {
+    position: relative;
+    top: 50px;
+  }
+  
+  .ic_cont {
+    display: inline-block;
+  }
+  
+  #card_left {
+    position: relative;
+    background: #304147;
+    padding: 30px 0;
+    box-shadow: 4px 4px 20px 5px rgb(0 0 0 / 15%);
+    width: 350px;
+    left: -5%;
+    margin-right: -80px;
+  }
+  
+  #text_right {
+    max-width: 620px;
+    vertical-align: top;
+    font-size: 60px;
+    padding-left: 60px;
+  }
+  
+  #card_left > * {
+    margin: auto;
+    text-align: center;
+  }
+  
+  #card_bottom {
+    height: 60px;
+    position: relative;
+    top: 30px;
+    background: white;
+    width: 100%;
+    color: black;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 60px;
+  }
+  
+  #card_bottom span:not(:first-child)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    height: 5px;
+    width: 5px;
+    background: black;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #desc {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  #desc p:first-child {
+    margin-top: 10px;
+  }
+  
+  #photo_circle {
+    height: 270px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: url('../Images/photo.jpg');
+    background-size: cover;
+  }
+  
+  #name_h {
+    margin: 20px 0;
+  }
+  
+  #name_h::after {
+    content: "";
+    display: inline-block;
+    margin: auto;
+    height: 2px;
+    width: 75px;
+    background: #f27e49;
+    margin-top: 20px;
+  }
+  
+  #cv {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  #cv span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .cv_link {
+    background: white;
+    padding: 0 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  
+  .cv_link a {
+    color: black;
+  }
+  
+  .cv_lang:hover {
+    box-shadow: 2px 2px 10px 2px rgb(0 0 0 / 20%) inset;
+  }
+  
+  #job_h {
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  
+  #cellar_info {
+    margin-top: 50px;
+    position: absolute;
+    right: 300px;
+    width: 200px;
+    padding-bottom: 30px;
+    display: inline-table;
+  }
+  
+  #cellar_info div {
+    display: inline-block;
+    width: 50%;
+  }
+  
+  .cellar_header {
+    font-weight: bold;
+  }
+  
+  .cellar_elab {
+    height: 25px;
+    line-height: 25px;
+    vertical-align: top;
+    margin-top: 5px;
+  }
+  
+  .cellar_elab *:not(a) {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    vertical-align: bottom;
+  }
+  
+  p {
+    display: block;
+    margin: 0 0 0 30px;
+  }
+  
+  p::before {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    content: "";
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    background: #f27e49;
+    margin-right: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
