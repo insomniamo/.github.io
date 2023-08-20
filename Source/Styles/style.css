@@ -4,7 +4,8 @@ body{
     font-family: "Poppins", "Montserrat";
     overflow-x: hidden;
 }
-.top{
+
+#TopContainer{
     background: #304147;
     margin-left: 0;
     margin-right: 0;
@@ -12,9 +13,9 @@ body{
     margin-bottom: 0;
     height: 230px;
     position: relative;
-    
 }
-.face{
+
+#Face{
     height: 225.1px;
     width: 175.1px;
     border: 2.5px solid #3f5259;
@@ -25,38 +26,8 @@ body{
     top: 0; left: 0; bottom: 0;
     margin-left: 25px;   
 }
-.mfualogo{
-    width: 140px;
-    height: 140px;
-    display: inline;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 15%; left: 0; bottom: 0; right: 0;
-}
-.mfua{
-    position: relative;
-    margin-left: 0px;
-    width: 10000px;
-}
-.mpeilogo{
-    width: 140px;
-    height: 140px;
-    display: inline;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 47%; left: 0; bottom: 0; right: 0;
-}
-.name{
-    font-size: 1.4em;
-    font-weight: bold;
-    display: inline-block;
-    color: white;
-    text-decoration-line: underline;
-    text-underline-position: under;
-}
-.NamingContainer{
+
+#NamingContainer{
     display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
@@ -68,7 +39,8 @@ body{
     left: 0;
     bottom: 0;
 }
-.rectangle{
+
+#LeftContainer{
     width: 180px;
     height: 1250px;
     margin-bottom: 0;
@@ -79,27 +51,49 @@ body{
     position: absolute;
     padding-top: 0px;
 }
-.content1{
+
+.mfualogo{
+    width: 140px;
+    height: 140px;
+    display: inline;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 15%; left: 0; bottom: 0; right: 0;
+}
+
+.mpeilogo{
+    width: 140px;
+    height: 140px;
+    display: inline;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 47%; left: 0; bottom: 0; right: 0;
+}
+
+#Name{
+    font-size: 1.4em;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+#Content{
     margin-left: 250px;
     margin-top: 0;
     display: inline-block;
     position: relative;
     position: absolute;
-    
 }
-.content2{
-    margin-left: 250px;
-    display: inline-block;
-    position: relative;
-    position: absolute;
-    margin-top: 230px;
-}
+
 .education{
     font-weight: bold;
 }
-.dateend1{
+
+#dateend {
     font-weight: bold;
 }
-.dateend2{
-    font-weight: bold;
-}
+
