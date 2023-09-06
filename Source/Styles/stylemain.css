@@ -171,6 +171,7 @@ body {
     margin: 0 5px;
     cursor: pointer;
     transition-duration: 0.3s;
+    box-shadow: 2px 5px 20px 5px rgb(255 255 255 / 20%);
   }
   
   .cv_link a {
